@@ -3,22 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Stefano Tonini - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience & Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#interests">Interests</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
     <header>
+        <img src="images/profile.jpg" alt="Stefano Tonini" class="profile-pic">
         <h1>Stefano Tonini</h1>
         <p>Trento 38122, Italy | Vicolo Benassuti 8</p>
         <p><strong>Phone:</strong> +39 3466121150 | <strong>Email:</strong> <a href="mailto:stefanotonini26@gmail.com">stefanotonini26@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/stefano-tonini">Stefano Tonini</a></p>
     </header>
 
-    <section>
+    <!-- Profile Section -->
+    <section id="profile">
         <h2>Profile</h2>
         <p>Master engineering student in Mechatronics specialised in system identification and analysis.</p>
     </section>
 
-    <section>
+    <!-- Education Section -->
+    <section id="education">
         <h2>Education</h2>
         <ul>
             <li>
@@ -40,7 +56,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Work Experience Section -->
+    <section id="experience">
         <h2>Work Experience & Projects</h2>
         <ul>
             <li>
@@ -51,6 +68,7 @@
                     <li>Developed software to control motor speed and torque using MATLAB and Arduino IDE.</li>
                     <li>Found the parameters of the transfer function using System Identification.</li>
                 </ul>
+                <img src="images/torque_control_project.jpg" alt="Torque Control Project" class="project-image">
             </li>
             <li>
                 <h3>Freelancer (2022 - Present)</h3>
@@ -89,7 +107,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Skills Section -->
+    <section id="skills">
         <h2>Skills</h2>
         <ul>
             <li>MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Maple, MapleSim, Simulink, LaTeX, AutoCAD, AMPL, AutoMod, Unity</li>
@@ -97,7 +116,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Languages Section -->
+    <section id="languages">
         <h2>Languages</h2>
         <ul>
             <li><strong>Italian:</strong> Native</li>
@@ -106,7 +126,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Interests and Achievements Section -->
+    <section id="interests">
         <h2>Interests & Achievements</h2>
         <ul>
             <li>Played soccer for 11 years in Virtus Trento and now occasionally with friends.</li>
@@ -115,8 +136,12 @@
         </ul>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Stefano Tonini</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>

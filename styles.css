@@ -1,3 +1,4 @@
+/* General */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -6,6 +7,37 @@ body {
     color: #333;
 }
 
+nav {
+    background-color: #0073e6;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
 header, section, footer {
     background: white;
     border-radius: 10px;
@@ -44,5 +76,20 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Images */
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.project-image {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
