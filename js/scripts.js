@@ -11,8 +11,19 @@ document.addEventListener('DOMContentLoaded', function () {
     // Collapsible Sections
     document.querySelectorAll('section h2').forEach(header => {
         header.addEventListener('click', function () {
-            const section = header.nextElementSibling;
-            section.style.display = section.style.display === 'none' ? 'block' : 'none';
+            const content = header.nextElementSibling;
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+                header.style.background = '#005bb5';
+            } else {
+                content.style.display = 'none';
+                header.style.background = '#0073e6';
+            }
         });
+    });
+
+    // Set default display for collapsible content
+    document.querySelectorAll('.collapsible-content').forEach(content => {
+        content.style.display = 'block';
     });
 });

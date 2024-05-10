@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Stefano Tonini - Personal Website</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Menu -->
@@ -30,115 +32,131 @@
     <!-- Profile Section -->
     <section id="profile">
         <h2>Profile</h2>
-        <p>Master engineering student in Mechatronics specialised in system identification and analysis.</p>
+        <div class="collapsible-content">
+            <p>Master engineering student in Mechatronics specialised in system identification and analysis.</p>
+        </div>
     </section>
 
     <!-- Education Section -->
     <section id="education">
         <h2>Education</h2>
-        <ul>
-            <li>
-                <h3>KTH Royal Institute of Technology, Stockholm (2024 - 2025)</h3>
-                <p>Master’s Degree in Mechatronics Engineering - Electronics and Robotics Specialisation</p>
-            </li>
-            <li>
-                <h3>Università degli studi di Trento, Italy (2023 - 2024)</h3>
-                <p>Master’s Degree in Mechatronics Engineering - Electronics and Robotics Specialisation</p>
-            </li>
-            <li>
-                <h3>Università degli studi di Trento, Italy (2020 - 2023)</h3>
-                <p>Bachelor’s Degree in Industrial Engineering - System Specialisation</p>
-            </li>
-            <li>
-                <h3>Liceo Scientifico Da Vinci, Italy (2015 - 2020)</h3>
-                <p>Scientific High School Diploma</p>
-            </li>
-        </ul>
+        <div class="collapsible-content">
+            <ul>
+                <li>
+                    <h3>KTH Royal Institute of Technology, Stockholm (2024 - 2025)</h3>
+                    <p>Master’s Degree in Mechatronics Engineering - Electronics and Robotics Specialisation</p>
+                </li>
+                <li>
+                    <h3>Università degli studi di Trento, Italy (2023 - 2024)</h3>
+                    <p>Master’s Degree in Mechatronics Engineering - Electronics and Robotics Specialisation</p>
+                </li>
+                <li>
+                    <h3>Università degli studi di Trento, Italy (2020 - 2023)</h3>
+                    <p>Bachelor’s Degree in Industrial Engineering - System Specialisation</p>
+                </li>
+                <li>
+                    <h3>Liceo Scientifico Da Vinci, Italy (2015 - 2020)</h3>
+                    <p>Scientific High School Diploma</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Work Experience Section -->
     <section id="experience">
         <h2>Work Experience & Projects</h2>
-        <ul>
-            <li>
-                <h3>Università di Trento (May 2023 - September 2023)</h3>
-                <p><strong>Project:</strong> Torque Control of a DC Motor - Bachelor Thesis</p>
-                <ul>
-                    <li>Built a real system with a microcontroller, motor shield, and current sensor connected to a DC motor with an integrated encoder.</li>
-                    <li>Developed software to control motor speed and torque using MATLAB and Arduino IDE.</li>
-                    <li>Found the parameters of the transfer function using System Identification.</li>
-                </ul>
-                <img src="images/torque_control_project.jpg" alt="Torque Control Project" class="project-image">
-            </li>
-            <li>
-                <h3>Freelancer (2022 - Present)</h3>
-                <p>Private Teacher</p>
-                <ul>
-                    <li>Taught mathematics and physics to high school students.</li>
-                    <li>Developed personalized lesson plans based on individual students’ needs.</li>
-                </ul>
-            </li>
-            <li>
-                <h3>Deliveroo (November 2020 - June 2021)</h3>
-                <p>Rider</p>
-                <ul>
-                    <li>Delivered food orders to customers promptly and efficiently.</li>
-                    <li>Managed time effectively to meet delivery targets.</li>
-                    <li>Ensured customer satisfaction by providing excellent service.</li>
-                </ul>
-            </li>
-            <li>
-                <h3>Automobile Club Trento - ACI (August 2019 - September 2019)</h3>
-                <p>Office Worker</p>
-                <ul>
-                    <li>Managed administrative tasks such as filing, data entry, and record keeping.</li>
-                    <li>Coordinated with other departments to ensure smooth operation of the office.</li>
-                    <li>Communicated with customers and clients to address their needs and concerns.</li>
-                </ul>
-            </li>
-            <li>
-                <h3>Gardolo Swimming Pool (June 2019 - August 2019)</h3>
-                <p>Children's Entertainer</p>
-                <ul>
-                    <li>Organized and conducted games and activities for children at the swimming pool.</li>
-                    <li>Ensured safety and supervision of children in the pool area.</li>
-                </ul>
-            </li>
-        </ul>
+        <div class="collapsible-content">
+            <ul>
+                <li>
+                    <h3>Università di Trento (May 2023 - September 2023)</h3>
+                    <p><strong>Project:</strong> Torque Control of a DC Motor - Bachelor Thesis</p>
+                    <ul>
+                        <li>Built a real system with a microcontroller, motor shield, and current sensor connected to a DC motor with an integrated encoder.</li>
+                        <li>Developed software to control motor speed and torque using MATLAB and Arduino IDE.</li>
+                        <li>Found the parameters of the transfer function using System Identification.</li>
+                    </ul>
+                    <img src="images/torque_control_project.jpg" alt="Torque Control Project" class="project-image">
+                </li>
+                <li>
+                    <h3>Freelancer (2022 - Present)</h3>
+                    <p>Private Teacher</p>
+                    <ul>
+                        <li>Taught mathematics and physics to high school students.</li>
+                        <li>Developed personalized lesson plans based on individual students’ needs.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Deliveroo (November 2020 - June 2021)</h3>
+                    <p>Rider</p>
+                    <ul>
+                        <li>Delivered food orders to customers promptly and efficiently.</li>
+                        <li>Managed time effectively to meet delivery targets.</li>
+                        <li>Ensured customer satisfaction by providing excellent service.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Automobile Club Trento - ACI (August 2019 - September 2019)</h3>
+                    <p>Office Worker</p>
+                    <ul>
+                        <li>Managed administrative tasks such as filing, data entry, and record keeping.</li>
+                        <li>Coordinated with other departments to ensure smooth operation of the office.</li>
+                        <li>Communicated with customers and clients to address their needs and concerns.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Gardolo Swimming Pool (June 2019 - August 2019)</h3>
+                    <p>Children's Entertainer</p>
+                    <ul>
+                        <li>Organized and conducted games and activities for children at the swimming pool.</li>
+                        <li>Ensured safety and supervision of children in the pool area.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Maple, MapleSim, Simulink, LaTeX, AutoCAD, AMPL, AutoMod, Unity</li>
-            <li>Python, C++, Swift, C#</li>
-        </ul>
+        <div class="collapsible-content">
+            <ul>
+                <li>MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Maple, MapleSim, Simulink, LaTeX, AutoCAD, AMPL, AutoMod, Unity</li>
+                <li>Python, C++, Swift, C#</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Languages Section -->
     <section id="languages">
         <h2>Languages</h2>
-        <ul>
-            <li><strong>Italian:</strong> Native</li>
-            <li><strong>English:</strong> Fluent, C1 level</li>
-            <li><strong>German:</strong> B1 level</li>
-        </ul>
+        <div class="collapsible-content">
+            <ul>
+                <li><strong>Italian:</strong> Native</li>
+                <li><strong>English:</strong> Fluent, C1 level</li>
+                <li><strong>German:</strong> B1 level</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Interests and Achievements Section -->
     <section id="interests">
         <h2>Interests & Achievements</h2>
-        <ul>
-            <li>Played soccer for 11 years in Virtus Trento and now occasionally with friends.</li>
-            <li>Enjoy gym and fitness activities.</li>
-            <li>Eager to learn new things.</li>
-        </ul>
+        <div class="collapsible-content">
+            <ul>
+                <li>Played soccer for 11 years in Virtus Trento and now occasionally with friends.</li>
+                <li>Enjoy gym and fitness activities.</li>
+                <li>Eager to learn new things.</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Stefano Tonini</p>
+        <div class="social-icons">
+            <a href="mailto:stefanotonini26@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/stefano-tonini"><i class="fab fa-linkedin"></i></a>
+        </div>
     </footer>
 
     <!-- JavaScript -->
