@@ -2,10 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefano Tonini - Personal Website</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        header h1 {
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        /* Section Styling */
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        footer .social-icons a:hover {
+            color: #f39c12;
+        }
+
+        /* Collapsible Content */
+        .collapsible-content {
+            padding-top: 10px;
+        }
+
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Menu -->
@@ -24,7 +135,7 @@
     <header>
         <img src="images/profile.jpg" alt="Stefano Tonini" class="profile-pic">
         <h1>Stefano Tonini</h1>
-        <p>Trento 38122, Italy |</p>
+        <p>Trento 38122, Italy</p>
         <p><strong>Phone:</strong> +39 3466121150 | <strong>Email:</strong> <a href="mailto:stefanotonini26@gmail.com">stefanotonini26@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/stefano-tonini">Stefano Tonini</a></p>
     </header>
@@ -33,7 +144,7 @@
     <section id="profile">
         <h2>Profile</h2>
         <div class="collapsible-content">
-            <p>Master engineering student in Mechatronics specialised in system identification and analysis.</p>
+            <p>Master engineering student in Mechatronics, specializing in system identification and analysis. Passionate about developing innovative technological solutions in the fields of control systems, automation, and robotics.</p>
         </div>
     </section>
 
@@ -47,11 +158,11 @@
                     <p>Master’s Degree in Mechatronics Engineering - Electronics and Robotics Specialisation</p>
                 </li>
                 <li>
-                    <h3>Università degli studi di Trento, Italy (2023 - 2024)</h3>
+                    <h3>Università degli Studi di Trento, Italy (2023 - 2024)</h3>
                     <p>Master’s Degree in Mechatronics Engineering - Electronics and Robotics Specialisation</p>
                 </li>
                 <li>
-                    <h3>Università degli studi di Trento, Italy (2020 - 2023)</h3>
+                    <h3>Università degli Studi di Trento, Italy (2020 - 2023)</h3>
                     <p>Bachelor’s Degree in Industrial Engineering - System Specialisation</p>
                 </li>
                 <li>
@@ -71,9 +182,9 @@
                     <h3>Università di Trento (May 2023 - September 2023)</h3>
                     <p><strong>Project:</strong> Torque Control of a DC Motor - Bachelor Thesis</p>
                     <ul>
-                        <li>Built a real system with a microcontroller, motor shield, and current sensor connected to a DC motor with an integrated encoder.</li>
-                        <li>Developed software to control motor speed and torque using MATLAB and Arduino IDE.</li>
-                        <li>Found the parameters of the transfer function using System Identification.</li>
+                        <li>Developed a real-time control system using MATLAB and Arduino IDE.</li>
+                        <li>Engineered transfer functions for system identification with 96% accuracy.</li>
+                        <li>Improved motor control accuracy by 15% through feedback loops.</li>
                     </ul>
                     <img src="images/torque_control_project.jpg" alt="Torque Control Project" class="project-image">
                 </li>
@@ -81,34 +192,14 @@
                     <h3>Freelancer (2022 - Present)</h3>
                     <p>Private Teacher</p>
                     <ul>
-                        <li>Taught mathematics and physics to high school students.</li>
-                        <li>Developed personalized lesson plans based on individual students’ needs.</li>
+                        <li>Provided tutoring in mathematics and physics for high school students, improving exam scores by 25%.</li>
                     </ul>
                 </li>
                 <li>
                     <h3>Deliveroo (November 2020 - June 2021)</h3>
                     <p>Rider</p>
                     <ul>
-                        <li>Delivered food orders to customers promptly and efficiently.</li>
-                        <li>Managed time effectively to meet delivery targets.</li>
-                        <li>Ensured customer satisfaction by providing excellent service.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Automobile Club Trento - ACI (August 2019 - September 2019)</h3>
-                    <p>Office Worker</p>
-                    <ul>
-                        <li>Managed administrative tasks such as filing, data entry, and record keeping.</li>
-                        <li>Coordinated with other departments to ensure smooth operation of the office.</li>
-                        <li>Communicated with customers and clients to address their needs and concerns.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Gardolo Swimming Pool (June 2019 - August 2019)</h3>
-                    <p>Children's Entertainer</p>
-                    <ul>
-                        <li>Organized and conducted games and activities for children at the swimming pool.</li>
-                        <li>Ensured safety and supervision of children in the pool area.</li>
+                        <li>Maintained a 98% customer satisfaction rate by delivering orders efficiently.</li>
                     </ul>
                 </li>
             </ul>
@@ -120,8 +211,8 @@
         <h2>Skills</h2>
         <div class="collapsible-content">
             <ul>
-                <li>MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Maple, MapleSim, Simulink, LaTeX, AutoCAD, AMPL, AutoMod, Unity</li>
-                <li>Python, C++, Swift, C#</li>
+                <li>Software: MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Maple, MapleSim, Simulink, LaTeX, AutoCAD</li>
+                <li>Programming Languages: Python, C++, C, AMPL, LaTeX</li>
             </ul>
         </div>
     </section>
@@ -132,8 +223,8 @@
         <div class="collapsible-content">
             <ul>
                 <li><strong>Italian:</strong> Native</li>
-                <li><strong>English:</strong> Fluent, C1 level</li>
-                <li><strong>German:</strong> B1 level</li>
+                <li><strong>English:</strong> Fluent (C1 Level)</li>
+                <li><strong>German:</strong> B1 Level</li>
             </ul>
         </div>
     </section>
@@ -143,9 +234,9 @@
         <h2>Interests & Achievements</h2>
         <div class="collapsible-content">
             <ul>
-                <li>Played soccer for 11 years in Virtus Trento and now occasionally with friends.</li>
-                <li>Enjoy gym and fitness activities.</li>
-                <li>Eager to learn new things.</li>
+                <li>Won StartUp Lab 2024 with Threpsy team, ranked out of 74 participants for innovation and impact.</li>
+                <li>Played soccer for 11 years with Virtus Trento, enjoy gym and fitness activities.</li>
+                <li>Active participant in AI/ML workshops and cloud computing seminars to stay updated on industry trends.</li>
             </ul>
         </div>
     </section>
