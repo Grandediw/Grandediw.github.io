@@ -114,10 +114,10 @@ a:hover {
 }
 
 .project-image {
-    width: 50%; 
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 15px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
 }
 
@@ -165,6 +165,15 @@ footer p {
 
 .social-icons i:hover {
     transform: rotate(10deg);
+}
+
+/* GitHub Icon Styling */
+.social-icons .fa-github {
+    font-size: 1.8rem;
+}
+
+.social-icons .fa-github:hover {
+    transform: scale(1.1);
 }
 
 /* Responsive Design */
