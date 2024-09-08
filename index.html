@@ -8,7 +8,114 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* General styles are in the external CSS file */
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        header h1 {
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        /* Section Styling */
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        footer .social-icons a:hover {
+            color: #f39c12;
+        }
+
+        /* Collapsible Content */
+        .collapsible-content {
+            padding-top: 10px;
+        }
+
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -21,7 +128,6 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#languages">Languages</a></li>
             <li><a href="#interests">Interests</a></li>
-            <li><a href="#soft-skills">Soft Skills</a></li>
         </ul>
     </nav>
 
@@ -38,7 +144,7 @@
     <section id="profile">
         <h2>Profile</h2>
         <div class="collapsible-content">
-            <p>Master's engineering student in Mechatronics, specializing in system identification and analysis, passionate about control systems, automation, and robotics. Skilled in both hardware and software development for innovative solutions in the engineering field.</p>
+            <p>Master engineering student in Mechatronics, specializing in system identification and analysis. Passionate about developing innovative technological solutions in the fields of control systems, automation, and robotics.</p>
         </div>
     </section>
 
@@ -73,42 +179,27 @@
         <div class="collapsible-content">
             <ul>
                 <li>
-                    <h3>Software Developer, Threpsy (May 2024 - Present)</h3>
+                    <h3>Università di Trento (May 2023 - September 2023)</h3>
+                    <p><strong>Project:</strong> Torque Control of a DC Motor - Bachelor Thesis</p>
                     <ul>
-                        <li>Collaborated with cross-functional teams to tailor AI solutions for individual nutritional needs using machine learning models.</li>
-                        <li>Improved the scalability of machine learning models, resulting in a 35% increase in solution accuracy and client satisfaction.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Torque Control of a DC Motor (Bachelor Thesis), Università di Trento (May 2023 - September 2023)</h3>
-                    <ul>
-                        <li>Built a real-time control system using MATLAB and Arduino IDE, achieving 96% accuracy in system identification.</li>
-                        <li>Enhanced motor control accuracy by 15% through feedback loops.</li>
+                        <li>Developed a real-time control system using MATLAB and Arduino IDE.</li>
+                        <li>Engineered transfer functions for system identification with 96% accuracy.</li>
+                        <li>Improved motor control accuracy by 15% through feedback loops.</li>
                     </ul>
                     <img src="images/torque_control_project.jpg" alt="Torque Control Project" class="project-image">
                 </li>
                 <li>
-                    <h3>Freelancer (Private Tutor), 2022 - Present</h3>
+                    <h3>Freelancer (2022 - Present)</h3>
+                    <p>Private Teacher</p>
                     <ul>
-                        <li>Provided tutoring in mathematics and physics, helping students improve their grades by 25% on average.</li>
+                        <li>Provided tutoring in mathematics and physics for high school students, improving exam scores by 25%.</li>
                     </ul>
                 </li>
                 <li>
-                    <h3>Rider, Deliveroo (November 2020 - June 2021)</h3>
+                    <h3>Deliveroo (November 2020 - June 2021)</h3>
+                    <p>Rider</p>
                     <ul>
-                        <li>Maintained a 98% customer satisfaction rate by delivering orders efficiently and promptly.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Office Worker, Automobile Club Trento - ACI (August 2019 - September 2019)</h3>
-                    <ul>
-                        <li>Managed administrative tasks such as data entry, filing, and record keeping in a fast-paced office environment.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Children's Entertainer, Gardolo Swimming Pool (June 2019 - August 2019)</h3>
-                    <ul>
-                        <li>Organized games and activities for children, increasing participation in events by 30%.</li>
+                        <li>Maintained a 98% customer satisfaction rate by delivering orders efficiently.</li>
                     </ul>
                 </li>
             </ul>
@@ -120,24 +211,8 @@
         <h2>Skills</h2>
         <div class="collapsible-content">
             <ul>
-                <li>Technical: MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Simulink, LaTeX, AutoCAD, AMPL, Python, C++, C</li>
-                <li>Programming Languages: Python, C++, Swift, C#, LaTeX</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Soft Skills Section -->
-    <section id="soft-skills">
-        <h2>Soft Skills</h2>
-        <div class="collapsible-content">
-            <ul>
-                <li>Problem-solving</li>
-                <li>Team collaboration</li>
-                <li>Communication and interpersonal skills</li>
-                <li>Adaptability and flexibility</li>
-                <li>Attention to detail</li>
-                <li>Time management and organization</li>
-                <li>Critical thinking</li>
+                <li>Software: MATLAB, Arduino, RStudio, MS Office, Wolfram Mathematica, Maple, MapleSim, Simulink, LaTeX, AutoCAD</li>
+                <li>Programming Languages: Python, C++, C, AMPL, LaTeX</li>
             </ul>
         </div>
     </section>
@@ -148,8 +223,8 @@
         <div class="collapsible-content">
             <ul>
                 <li><strong>Italian:</strong> Native</li>
-                <li><strong>English:</strong> Fluent (C1 level)</li>
-                <li><strong>German:</strong> B1 level</li>
+                <li><strong>English:</strong> Fluent (C1 Level)</li>
+                <li><strong>German:</strong> B1 Level</li>
             </ul>
         </div>
     </section>
@@ -159,8 +234,8 @@
         <h2>Interests & Achievements</h2>
         <div class="collapsible-content">
             <ul>
-                <li>Won StartUp Lab 2024 with the Threpsy team, ranked out of 74 participants for innovation and impact.</li>
-                <li>Played soccer for 11 years in Virtus Trento, now enjoys fitness and gym activities.</li>
+                <li>Won StartUp Lab 2024 with Threpsy team, ranked out of 74 participants for innovation and impact.</li>
+                <li>Played soccer for 11 years with Virtus Trento, enjoy gym and fitness activities.</li>
                 <li>Active participant in AI/ML workshops and cloud computing seminars to stay updated on industry trends.</li>
             </ul>
         </div>
