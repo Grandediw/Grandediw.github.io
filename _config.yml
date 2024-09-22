@@ -1,17 +1,16 @@
-title: David Kobalia
-description: David Kobalia's Personal Website
+title: Stefano Tonini
+description: Stefano Tonini's Personal Website
 baseurl: ""
 
-username: David Kobalia
-typing_text: Software Engineer / QA Tester
+username: Stefano Tonini
+typing_text: Mechatronics Engineer 
 
-email: davit.kobalia.1@btu.edu.ge
-telegram_username: in_solitum
-linkedin_username: dkobalia
-github_username: blocage
-facebook_username: DaWeedGone
-instagram_username: insol1tum
-whatsapp_number: 995599014780
+email: stefanotonini26@gmail.com
+telegram_username: stefanotonini
+linkedin_username: stefano-tonini
+github_username: Grandediw
+
+
 # personal_store: <<my_store>>
 
 show_aboutme_card: false
@@ -35,10 +34,10 @@ show_contact_card: true
 contact_title: Contacts
 contact_description: Feel free to contact me wherever is comfortable for you
 
-repository: blocage/blocage.github.io
+repository: Grandediw/Grandediw.github.io
 github_pages:
   - sorting_algos
-  - blocage.github.io
+  - Grandediw.github.io
   
 projects:
   sort_by: stars
