@@ -186,7 +186,20 @@
 
 <body>
     <nav>
-        <ul>
+        <div class="nav-mobile-header">
+            <a href="#" class="nav-brand">Stefano Tonini</a>
+    
+            <button
+                class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    
+        <ul id="nav-menu">
             <li><a href="#profile">Profile</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
