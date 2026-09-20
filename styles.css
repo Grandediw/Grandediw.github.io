@@ -177,11 +177,13 @@ footer p {
 }
 
 /* Responsive Design */
-.nav-mobile-header {
+
+/* Desktop: hide hamburger completely */
+nav .nav-mobile-header {
     display: none;
 }
 
-.menu-toggle {
+nav .menu-toggle {
     display: none;
 }
 
@@ -191,20 +193,42 @@ footer p {
     font-weight: bold;
 }
 
+/* Desktop navigation */
+@media (min-width: 701px) {
+
+    nav .nav-mobile-header {
+        display: none;
+    }
+
+    nav .menu-toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+}
+
+/* Mobile navigation */
 @media (max-width: 700px) {
 
     nav {
         padding: 0;
     }
 
-    .nav-mobile-header {
+    nav .nav-mobile-header {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 14px 20px;
     }
 
-    .menu-toggle {
+    nav .menu-toggle {
         display: block;
         background: none;
         border: none;
@@ -247,5 +271,4 @@ footer p {
     section {
         margin: 15px;
     }
-}
 }
